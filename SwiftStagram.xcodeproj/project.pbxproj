@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172850BD24EA28A6008BC8E2 /* postView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172850BC24EA28A6008BC8E2 /* postView.swift */; };
+		172850BF24EA290C008BC8E2 /* postCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172850BE24EA290C008BC8E2 /* postCell.swift */; };
+		1747801E24E8CED700F9BA3B /* FetchInstagramData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1747801D24E8CED700F9BA3B /* FetchInstagramData.swift */; };
+		1747802824E9159F00F9BA3B /* IGHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1747802724E9159F00F9BA3B /* IGHeader.swift */; };
+		1747802A24E91E8100F9BA3B /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1747802924E91E8100F9BA3B /* profileView.swift */; };
+		1747802C24E9238D00F9BA3B /* articlePicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1747802B24E9238D00F9BA3B /* articlePicCell.swift */; };
 		1797541D24E8C9E300C97630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1797541C24E8C9E300C97630 /* AppDelegate.swift */; };
 		1797541F24E8C9E300C97630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1797541E24E8C9E300C97630 /* SceneDelegate.swift */; };
-		1797542124E8C9E300C97630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1797542024E8C9E300C97630 /* ViewController.swift */; };
 		1797542424E8C9E300C97630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1797542224E8C9E300C97630 /* Main.storyboard */; };
 		1797542624E8C9E400C97630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1797542524E8C9E400C97630 /* Assets.xcassets */; };
 		1797542924E8C9E400C97630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1797542724E8C9E400C97630 /* LaunchScreen.storyboard */; };
@@ -35,10 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		172850BC24EA28A6008BC8E2 /* postView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postView.swift; sourceTree = "<group>"; };
+		172850BE24EA290C008BC8E2 /* postCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postCell.swift; sourceTree = "<group>"; };
+		1747801D24E8CED700F9BA3B /* FetchInstagramData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchInstagramData.swift; sourceTree = "<group>"; };
+		1747802724E9159F00F9BA3B /* IGHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IGHeader.swift; path = View/IGHeader.swift; sourceTree = "<group>"; };
+		1747802924E91E8100F9BA3B /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
+		1747802B24E9238D00F9BA3B /* articlePicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articlePicCell.swift; sourceTree = "<group>"; };
 		1797541924E8C9E300C97630 /* SwiftStagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1797541C24E8C9E300C97630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1797541E24E8C9E300C97630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1797542024E8C9E300C97630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1797542324E8C9E300C97630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1797542524E8C9E400C97630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1797542824E8C9E400C97630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +86,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1747801F24E906C200F9BA3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1747802624E9155100F9BA3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1797541024E8C9E300C97630 = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +125,15 @@
 			children = (
 				1797541C24E8C9E300C97630 /* AppDelegate.swift */,
 				1797541E24E8C9E300C97630 /* SceneDelegate.swift */,
-				1797542024E8C9E300C97630 /* ViewController.swift */,
+				1747802924E91E8100F9BA3B /* profileView.swift */,
+				1747801D24E8CED700F9BA3B /* FetchInstagramData.swift */,
 				1797542224E8C9E300C97630 /* Main.storyboard */,
+				172850BC24EA28A6008BC8E2 /* postView.swift */,
+				172850BE24EA290C008BC8E2 /* postCell.swift */,
+				1747802B24E9238D00F9BA3B /* articlePicCell.swift */,
+				1747802724E9159F00F9BA3B /* IGHeader.swift */,
+				1747801F24E906C200F9BA3B /* Models */,
+				1747802624E9155100F9BA3B /* View */,
 				1797542524E8C9E400C97630 /* Assets.xcassets */,
 				1797542724E8C9E400C97630 /* LaunchScreen.storyboard */,
 				1797542A24E8C9E400C97630 /* Info.plist */,
@@ -258,9 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1797542124E8C9E300C97630 /* ViewController.swift in Sources */,
+				1747801E24E8CED700F9BA3B /* FetchInstagramData.swift in Sources */,
+				172850BD24EA28A6008BC8E2 /* postView.swift in Sources */,
 				1797541D24E8C9E300C97630 /* AppDelegate.swift in Sources */,
+				1747802A24E91E8100F9BA3B /* profileView.swift in Sources */,
+				1747802C24E9238D00F9BA3B /* articlePicCell.swift in Sources */,
+				1747802824E9159F00F9BA3B /* IGHeader.swift in Sources */,
 				1797541F24E8C9E300C97630 /* SceneDelegate.swift in Sources */,
+				172850BF24EA290C008BC8E2 /* postCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
